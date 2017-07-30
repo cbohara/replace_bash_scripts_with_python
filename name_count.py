@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 import sys
 
 # alternative to $ cat names.log | sort | uniq | wc -l
