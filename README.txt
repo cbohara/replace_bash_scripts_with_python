@@ -2,9 +2,9 @@ Notes from article published in Linux Journal
 'Python Scripts as a Replacement for Bash Utility Scripts'
 By Richard Delaney
 
-https://www.linuxjournal.com/content/python-scripts-replacement-bash-utility-scripts
-
 "Instead of replacing a series of bash commands with one Python script, it often is better to have Python do only the heavy lifting in the middle. This allows for more modular and reusable scripts, while also tapping into the power of all that Python offers."
+
+https://www.linuxjournal.com/content/python-scripts-replacement-bash-utility-scripts
 
 Let's say we have a log of the number of times a user is using our service
 We can find the number of unique users using the linux lines below
