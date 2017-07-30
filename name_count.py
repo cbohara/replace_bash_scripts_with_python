@@ -1,14 +1,14 @@
 #!/usr/bin/python
+import sys
 
 # alternative to $ cat names.log | sort | uniq | wc -l
 # we want the name of the users and the number of occurances
-# $ cat names.log | python name_count.py
+# $ cat data/names.log | python name_count.py
 
 # we can then sort so most frequent users are printed first
 # sort -rn (-r for reverse and -n for numeric)
-# $ cat names.log | python name_count.py | sort -rn 
+# $ cat data/names.log | python name_count.py | sort -rn 
 
-import sys
 
 if __name__ == "__main__":
     # names = { name : count } 
